@@ -1,0 +1,136 @@
+/* ====== Base Styles (Mobile First) ====== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #3949ab;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Intro Section */
+.intro {
+  margin: 20px 0;
+  background-color: #e3f2fd;
+  padding: 15px;
+  border-left: 5px solid #2196f3;
+}
+
+/* Cards Section */
+.cards-container {
+  display: flex;
+  flex-direction: column; /* Stack on mobile */
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Image Section */
+.image-section {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Buttons Section */
+.buttons-section {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #26a69a;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #00796b;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-top: 3px solid #26a69a;
+}
+
+/* ====== MEDIA QUERIES ====== */
+
+/* Tablets (min width 600px) */
+@media screen and (min-width: 600px) {
+  body {
+    background-color: #e0f7fa;
+  }
+
+  .cards-container {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    flex: 1 1 30%;
+  }
+
+  .intro {
+    font-size: 18px;
+  }
+}
+
+/* Desktop (min width 992px) */
+@media screen and (min-width: 992px) {
+  header {
+    font-size: 24px;
+    padding: 30px;
+  }
+
+  .btn {
+    font-size: 18px;
+    padding: 12px 25px;
+  }
+
+  .image-section h2 {
+    font-size: 28px;
+  }
+
+  .card {
+    font-size: 20px;
+    padding: 30px;
+  }
+}

@@ -1,0 +1,90 @@
+/* External CSS Example */
+
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid #357ab7;
+}
+
+/* Flexbox Layout Example */
+.box-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px;
+}
+
+.box {
+  background-color: white;
+  padding: 30px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  background-color: #e0f7fa;
+}
+
+/* Button Styling */
+.buttons-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.styled-btn {
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: #ff7043;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.styled-btn:hover {
+  background-color: #46c5d6;
+}
+
+/* Text Styling */
+.text-section {
+  padding: 0 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.text-demo {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 600px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}

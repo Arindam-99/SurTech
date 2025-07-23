@@ -1,0 +1,25 @@
+/* DAY MODE STYLES */
+body.day-mode {
+  background-color: #f0f0f0;
+  color: #222;
+}
+
+.container.day-mode {
+  background-color: #ffffff;
+}
+
+.taskItem.day-mode {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+input.day-mode {
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+button.day-mode {
+  background-color: #dcdcdc;
+  color: #000;
+}
